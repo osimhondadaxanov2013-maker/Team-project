@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1538px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav__links a {
+  color: white;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 400px;
+}
+
+.header__btn {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.header__btn a {
+  color: black;
+}
+
+.hero {
+}
+
+.hero__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.first__title h2 {
+  padding-right: 700px;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.first__title small {
+  font-size: 12px;
+  font-weight: 400;
+  background-color: rgba(116, 46, 255, 1);
+  color: white;
+}
+
+.first__title h1 {
+  font-size: 112px;
+  font-weight: 400;
+}
+
+.hero__input {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  display: flex;
+}
+.hero__input input {
+  width: 270px;
+  height: 38px;
+  background-color: rgba(142, 142, 152, 0.2);
+  border: 1px solid rgba(142, 142, 152, 0.2);
+  background-color: rgba(142, 142, 152, 0.2);
+}
+
+.hero__input button {
+  padding: 9px;
+  background-color: rgba(71, 71, 76, 1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+  color: white;
+}
+
+.hero__input small {
+  margin-right: 105px;
+  margin-top: 20px;
+  color: rgba(71, 71, 76, 1);
+}
+
+.hero__input span {
+  color: rgba(142, 142, 152, 1);
+}
+
+.hero__bottom {
+  position: absolute;
+  top: 540px;
+  left: 540px;
+  background-color: rgba(142, 142, 152, 1);
+  width: 411px;
+  height: 30px;
+  font-size: 13px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
