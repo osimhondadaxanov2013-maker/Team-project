@@ -17,7 +17,7 @@
 
 .homepage {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   background-color: black;
   color: white;
 }
@@ -135,6 +135,38 @@ header {
   height: 30px;
   font-size: 13px;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shapes{
+  width: 100%;
+  height: 775px;
+  background-color: black;
+  border-top: 5px solid grey;
+  padding: 10px 31px;
+}
+.shapes__box{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 16.25px;
+}
+.shapes__box--triangle{
+  width: 447.70001220703125px;
+  background-color: #25E197;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shapes__box--circle{
+  width: 912.2739868164062px;
+  height: 200px;
+  background-color: #FFD233;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
