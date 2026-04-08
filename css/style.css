@@ -152,6 +152,7 @@ header {
   display: flex;
   align-items: center;
   gap: 16.25px;
+  margin-bottom: 15px;
 }
 .shapes__box--triangle{
   width: 447.70001220703125px;
@@ -163,7 +164,7 @@ header {
   justify-content: center;
 }
 .shapes__box--circle{
-  width: 912.2739868164062px;
+  width: 985.2739868164062px;
   height: 200px;
   background-color: #FFD233;
   border-radius: 15px;
@@ -227,4 +228,29 @@ header {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-bottom: 60px solid white; 
+}
+.shapes__box2{
+  width: 100%;
+  height: 545.6849365234375px;
+  display: flex;
+  align-items: center;
+  gap: 15.4px;
+}
+.shapes__box2--circle{
+  width: 912.2666625976562px;
+  height: 545.6849365234375px;
+  background-color: #792EFF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shapes__box2--square{
+  width: 522.04437255859375px;
+  height: 545.6849365234375px;
+  background: #C4C4C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
 }
